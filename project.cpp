@@ -15,6 +15,12 @@ double Multiplication(double x,double y);
 double Division(double x,double y);
 };
 
+Calculator::Division(double x,double y)
+{
+	return x/y;
+
+}
+
 
 
 int main()
