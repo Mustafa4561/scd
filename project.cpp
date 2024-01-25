@@ -41,6 +41,6 @@ Calculator::Calculator(){};
 
 int main()
 {
-
+Calculator t1;
 return 0;
 }
