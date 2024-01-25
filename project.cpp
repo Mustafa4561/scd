@@ -20,6 +20,11 @@ Calculator::Division(double x,double y)
 	return x/y;
 
 }
+Calculator::Multiplication(double x,double y)
+{
+	return x*y;
+
+}
 
 
 
