@@ -9,17 +9,33 @@ double num2;
 
 public:
 Calculator();
-double Sum(double x,double y);
-double Minus(double x,double y);
+double addition(double x,double y);
+double subtraction(double x,double y);
 double Multiplication(double x,double y);
 double Division(double x,double y);
 };
 
-Calculator::Division(double x,double y)
+double Calculator::Division(double x,double y)
 {
 	return x/y;
 
 }
+
+Calculator::Multiplication(double x,double y)
+{
+	return x*y;
+}
+double Calculator::addition(double x,double y)
+{
+	return x+y;
+
+}
+double Calculator::subtraction(double x,double y)
+{
+	return x-y;
+
+}
+Calculator::Calculator(){};
 
 
 
