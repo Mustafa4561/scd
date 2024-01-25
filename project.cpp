@@ -35,7 +35,7 @@ double Calculator::subtraction(double x,double y)
 	return x-y;
 
 }
-Calculator::Calculator();
+Calculator::Calculator(){};
 
 
 
