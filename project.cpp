@@ -15,6 +15,12 @@ double Multiplication(double x,double y);
 double Division(double x,double y);
 };
 
+double Calculator::Div(double x,double y)
+{
+	return x/y;
+
+}
+
 double Calculator::Division(double x,double y)
 {
 	return x/y;
